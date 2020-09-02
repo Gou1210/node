@@ -1,6 +1,6 @@
 const fs = require('fs')
 const http = require('http')
-const server = htt.createServer()
+const server = http.createServer()
 server.on('request',function(){
     console.log('我是requese')
 })
