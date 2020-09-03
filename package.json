@@ -1,0 +1,25 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/www.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"crross-env NODE_ENV=dev nodemon /bin/www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gou1210/node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gou1210/node/issues"
+  },
+  "homepage": "https://github.com/Gou1210/node#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.4"
+  }
+}
